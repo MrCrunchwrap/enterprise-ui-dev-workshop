@@ -16,7 +16,7 @@ jobs:
         uses: actions/setup-node@v3
       - run: npm ci
       - run: npm run build
-  build-and-test:
+  test:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
